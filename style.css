@@ -76,7 +76,15 @@ ul>li{
         transform: translateX(0);
         opacity: 0;
     }
-    10% ,90%{
+    10%{
+        opacity: 1;
+    }
+
+    50%{
+        background-color: #fcff91;
+    }
+
+    90%{
         opacity: 1;
     }
     100%{
