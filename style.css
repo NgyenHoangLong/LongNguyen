@@ -21,7 +21,7 @@
     background-image: url("./img/avt.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -200px;
+    background-position: center;
     filter: blur(5px);
     transform: scale(1.2);
 /*     animation: bg 8s linear infinite alternate; */
