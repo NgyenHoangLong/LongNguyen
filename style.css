@@ -36,13 +36,14 @@
 	flex-direction:column;
 }
 .title{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Pacifico', cursive;
+	font-family: 'Satisfy', cursive;
     font-weight: 100;
     letter-spacing: 10px;
     padding: 12.5px 25px;
     text-shadow: 1px 1px 10px black;
-    border: 5px solid #fff;
-    border-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, .5);
+    border-radius: 4px;
     color: white;
 }
 
@@ -68,6 +69,23 @@ ul>li{
     position: absolute;
     z-index: 200;
     overflow: hidden;
+}
+
+.Call{
+	color: #fff;
+    bottom: 0;
+    position: absolute;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.Call>a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.Call>a:hover{
+	color:#E3CFAE;
 }
 
 .particle{
