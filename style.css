@@ -18,10 +18,10 @@
 }
 .blur{
 /*    background-color: #212121; */
-    background-image: url("./img/avt.png");
+    background-image: url("./img/avt.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     filter: blur(5px);
     transform: scale(1.2);
 /*     animation: bg 8s linear infinite alternate; */
@@ -48,8 +48,18 @@
 }
 
 ul>li>a{
+	font-family: 'Pacifico', cursive;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
 	color:#fff;
+	text-decoration:none;
+	overflow:hidden;
 }
+
+ul>li>a:hover{
+	color:#E3CFAE;
+}
+
 
 ul>li{
     display: inline-block;
@@ -73,7 +83,7 @@ ul>li{
 }
 @keyframes move {
     0%{
-        transform: translateX(0);
+        transform: translateY(45vw);
         opacity: 0;
     }
     10%{
@@ -88,12 +98,10 @@ ul>li{
         opacity: 1;
     }
     100%{
-        transform: translateX(45vw);
+        transform: translateY(0);
         opacity: 0;
     }
 }
-
-
 
 
 <style>
