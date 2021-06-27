@@ -36,8 +36,7 @@
 	flex-direction:column;
 }
 .title{
-    font-family: 'Pacifico', cursive;
-	font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', cursive;
     font-weight: 100;
     letter-spacing: 10px;
     padding: 12.5px 25px;
